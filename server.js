@@ -3,7 +3,7 @@ var express = require("express");
 var methodOverride = require("method-override");
 var bodyParser = require("body-parser");
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 3306;
 var app = express();
 
 //Middleware for express server
